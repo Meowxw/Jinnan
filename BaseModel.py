@@ -153,18 +153,6 @@ categorical_columns.remove('A1')
 categorical_columns.remove('A3')
 categorical_columns.remove('A4')
 
-
-
-
-
-
-
-
-
-
-
-
-
 #######################################独热编码，避免异常值数据采坑（这一题数据量非常小，模型鲁棒性非常差，特别容易采坑）############################
 #label encoder
 for f in categorical_columns:
